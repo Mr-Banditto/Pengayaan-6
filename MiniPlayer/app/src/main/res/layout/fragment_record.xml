@@ -1,0 +1,12 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView android:id="@+id/tvRecordStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Siap Merekam" android:textSize="18sp" android:layout_marginBottom="20dp"/>
+    <Button android:id="@+id/btnStartRecord" android:text="START RECORD" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp"/>
+    <Button android:id="@+id/btnPlayRecord" android:text="PLAY RECORDING" android:layout_width="match_parent" android:layout_height="wrap_content" android:backgroundTint="#4CAF50" android:layout_margin="5dp"/>
+
+</LinearLayout>
